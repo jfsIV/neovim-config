@@ -12,6 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	spec = "jfs.lazy_packages",
+	spec = "lazy_packages",
 	change_detection = { notify = false },
 })

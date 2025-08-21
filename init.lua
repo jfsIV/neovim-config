@@ -1,1 +1,3 @@
-require("jfs")
+require("keymaps")
+require("lazy_init")
+require("settings")
