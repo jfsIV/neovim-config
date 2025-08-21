@@ -29,7 +29,7 @@ colorschemes = {
 
 colorscheme = colorschemes[color]
 
-return {
+return {{
     colorscheme.path,
     name = colorscheme.name,
     opts = {
@@ -49,4 +49,4 @@ return {
         require(colorscheme.name).setup(opts)
         vim.cmd.colorscheme(colorscheme.name)
     end
-}
+}}
