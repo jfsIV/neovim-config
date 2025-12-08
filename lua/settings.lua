@@ -1,5 +1,5 @@
 -- cursor to solid in all modes
-vim.opt.guicursor = ""
+vim.opt.guicursor = "n-v-c-sm-i-ci-ve-r-cr-o:block"
 
 -- line numbers
 vim.opt.nu = true
