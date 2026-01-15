@@ -4,7 +4,8 @@ return {
     opts = {
         ensure_installed = {
             "cpp", "python", "cmake", "c", "lua", "vim", "vimdoc", "markdown",
-            "rust", "fortran", "bash", "html",
+            "rust", "fortran", "bash", "html", "latex", "yaml",
+            "markdown_inline", 
         },
 
         auto_install = true,
