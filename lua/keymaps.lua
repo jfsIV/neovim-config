@@ -18,10 +18,10 @@ vim.keymap.set({"n", "v"}, "<leader>d", "\"_d")
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>')
 
 -- grow up!!!
-vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
-vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
-vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
-vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
+vim.keymap.set('n', '<left>', '<cmd>echo "Grow the fuck up!! Use h to move!!"<CR>')
+vim.keymap.set('n', '<right>', '<cmd>echo "Grow the fuck up!! Use l to move!!"<CR>')
+vim.keymap.set('n', '<up>', '<cmd>echo "Grow the fuck up!! Use k to move!!"<CR>')
+vim.keymap.set('n', '<down>', '<cmd>echo "Grow the fuck up!! Use j to move!!"<CR>')
 
 -- move to other windows quicker
 vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })

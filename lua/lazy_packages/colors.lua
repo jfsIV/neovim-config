@@ -1,4 +1,4 @@
-color = "nightfox"
+color = "tokyonight"
 
 colorschemes = {
     tokyonight = {
