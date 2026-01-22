@@ -1,12 +1,32 @@
 return {
     "nvim-treesitter/nvim-treesitter",
+    lazy = false,
+    build = ":TSUpdate",
 
-    opts = {
-        ensure_installed = {
-            "cpp", "python", "cmake", "c", "lua", "vim", "vimdoc", "markdown",
-            "rust", "fortran", "bash", "html", "latex", "yaml",
+    config = function()
+        local TS = require("nvim-treesitter")
+        TS.install({
+            "bash", 
+            "c",
+            "cmake",
+            "cpp",
+            "fortran",
+            "html",
+            "latex",
+            "lua",
+            "markdown",
             "markdown_inline", 
-        },
+            "python",
+            "rust",
+            "vim",
+            "vimdoc",
+            "yaml",
+        })
+
+    end,
+--[[
+    opts = {
+        ensure_installed = { },
 
         auto_install = true,
 
@@ -15,4 +35,5 @@ return {
             additional_vim_regex_highlighting = false,
         },
     },
+]]
 }
