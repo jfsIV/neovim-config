@@ -9,7 +9,9 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 -- yanks highlighted text to SYSTEM keyboard
 vim.keymap.set({"n", "v"}, "<leader>y", "\"+y")
 -- yanks current line to SYSTEM keyboard
---vim.keymap.set({"n", "v"}, "<leader>Y", "\"+Y")
+vim.keymap.set({"n", "v"}, "<leader>Y", "\"+Y")
+-- cuts highlighted text to SYSTEM keyboard
+vim.keymap.set({"n", "v"}, "<leader>x", "\"+x")
 
 -- deletes highlighted text to the void
 vim.keymap.set({"n", "v"}, "<leader>d", "\"_d")
