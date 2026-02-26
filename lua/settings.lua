@@ -43,9 +43,9 @@ vim.opt.inccommand = "split"
 vim.opt.termguicolors = true
 
 -- always have at least 8 spaces above or below code
---vim.opt.scrolloff = 8
+vim.opt.scrolloff = 8
 -- cursor is always in the middle of the screen when possible
-vim.opt.scrolloff = 999
+--vim.opt.scrolloff = 999
 -- all column tags are shown
 vim.signcolum = "yes"
 -- appends the current file to the path?
